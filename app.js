@@ -61,7 +61,7 @@ function unmutevid() {
 // start discord notification toastr
 
 function discordClick() {
-    alert('my discord is private atm ; contact me through steam');
+    alert('frack#0001');
 }
 
 
@@ -533,3 +533,16 @@ getRandomVideo();
 const videoIframe = document.getElementById('video');
   
 videoIframe.src = youtubeUrl(getRandomVideo());
+
+
+//btn log in login alert
+
+
+setTimeout(function() {
+    console.log("hola")},2000);
+
+function btnLogin() {
+    setTimeout (function() {
+        alert("access denied \nyou don't have permission to access this page")
+    },2000);
+}

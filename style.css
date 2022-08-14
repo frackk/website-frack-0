@@ -57,6 +57,94 @@ font-family: 'Montserrat', sans-serif;
     -o-animation: fadein 3s; /* Opera */
 }
 
+input {
+  background: rgba(255,255,255,0.3);
+  border: none;
+  position: relative;
+  display: block;
+  outline: none;
+  width: 310px;
+  height: 30p;
+  margin: 0 auto;
+  padding: 10px;
+  color: rgb(19, 19, 19);
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  text-align: center;
+}
+::-webkit-input-placeholder { color: rgb(46, 46, 46);} 
+:-moz-placeholder { color: rgb(46, 46, 46);}
+::-moz-placeholder { color: rgb(46, 46, 46);}
+:-ms-input-placeholder { color: rgb(46, 46, 46);}
+
+.frackH1 {
+  letter-spacing: 4px; 
+  font-size: 28px;
+}
+
+.backHome2 {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  font-size: 14px;
+  color: rgb(167, 167, 167);
+  
+
+  transform: translate(-50%, -50%);
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+
+.btn-outline-secondary:hover {
+transition: 400ms;
+}
+
+.headerLogin {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 3%;
+  left: 96%;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 12%;
+  border-color: rgb(167, 167, 167);
+  border-width: 2px;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+
+  transform: translate(-50%, -50%);
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+
+.headerLogin:hover {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 3%;
+  left: 96%;
+  font-size: 16px;
+  background-color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  text-decoration: none;
+  color: white;
+  transition: 400ms;
+  
+
+  transform: translate(-50%, -50%);
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+
 .indexHoverText {
     color: white;
   }
