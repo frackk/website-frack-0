@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(235, 235, 235);
+    text-decoration-color: black;
+    color: black;
+}
+
+.kahoru {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1.5rem;
+    padding-top: 0;
+}
+
+.butterfly {
+    text-align: center;
+    font-size: 1rem;
+    font-family: monospace;
+    line-height: 0.8em;
+}
+
+.login {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+    padding-top: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.login:link {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+    padding-top: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.login:visited {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+    padding-top: 0;
+    text-decoration: none;
+    color: black;
+}
+
+

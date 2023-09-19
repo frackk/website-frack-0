@@ -145,6 +145,50 @@ transition: 400ms;
   -o-animation: fadein 3s; /* Opera */
 }
 
+.headerLogin2 {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 3%;
+  left: 92%;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 12%;
+  border-color: rgb(167, 167, 167);
+  border-width: 2px;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+
+  transform: translate(-50%, -50%);
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+
+.headerLogin2:hover {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 3%;
+  left: 92%;
+  font-size: 16px;
+  background-color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  text-decoration: none;
+  color: white;
+  transition: 400ms;
+  
+
+  transform: translate(-50%, -50%);
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+
+
 .indexHoverText {
     color: white;
   }
